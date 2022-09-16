@@ -1,0 +1,226 @@
+body {
+	margin: 0px;
+	position: relative;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+.container {
+	cursor: pointer;
+	display: flex;
+	position: absolute;
+	top: 50%;
+	align-self: center;
+	justify-content: space-around;
+	left: 50%;
+	/*justify-self: center;*/
+	width: 250px;
+	font-family: Arial, Melvetica, sans-serif;
+	font-weight: bold;
+	transform: translate(-50%, -50%);
+}
+
+span {
+	margin: 0px;
+	color: white;
+	font-size: 40px;
+
+}
+
+span:hover {
+	cursor: pointer;
+	color: #ff9900;
+	/*animation-name: example;
+	animation-duration: 0.7s;
+	animation-iteration-count: infinite;
+	*/
+}
+button:hover {
+	cursor: pointer;
+	color: #ff9900;
+}
+.analog:hover {
+	border-color: #ff9900;
+}
+
+@keyframes example {
+  from {color: white;}
+  to{color: rgb(255, 51, 153)}
+}
+
+.hidden {
+	display: none;
+}
+
+.analog {
+	width: 300px;
+	height: 300px;
+	color: white;
+	border: 5px solid white;
+	border-radius: 50%;
+	position: absolute;
+	margin: auto;
+	position: relative;
+}
+.point {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	top: 145px;
+	left: 145px;
+}
+
+.hour {
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+}
+.hour-12 {
+	top: 5px;
+	left: 140px;
+	
+}
+.hour-1 {
+	top: 19px;
+	right: 78px;
+
+}
+.hour-2 {
+	top: 63px;
+	left: 259px;
+	
+}
+.hour-3 {
+	top: 130px;
+	left: 285px;
+}
+.hour-4 {
+	bottom: 73px;
+	left: 263px;
+	
+}
+.hour-5 {
+	bottom: 19px;
+	right: 78px;
+	
+}
+.hour-6 {
+	top: 275px;
+	left: 142px;
+	
+}
+.hour-7 {
+	bottom: 19px;
+	left: 78px;
+	
+}
+.hour-8 {
+	bottom: 73px;
+	right: 263px;
+	
+}
+.hour-9 {
+	top: 130px;
+	left: 5px;
+	
+}
+.hour-10 {
+	top: 63px;
+	right: 254px;
+	
+}
+.hour-11 {
+	top: 19px;
+	left: 78px;
+}
+
+.minute-hand-container {
+	width: 250px;
+	height: 250px;
+	/*background-color: white;*/
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	border-radius: 50%;
+}
+.minute-hand {
+	position: relative;
+}
+
+.minute-hand .hand {
+	width: 2px;
+	height: 125px;
+	background-color: white;
+	position: absolute;
+	left: 124px;
+}
+.hour-hand-container {
+	width: 150px;
+	height: 150px;
+	/*background-color: white;*/
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	border-radius: 50%;
+}
+.hour-hand {
+	position: relative;
+}
+.hour-hand .hand {
+	width: 2px;
+	height: 75px;
+	background-color: blue;
+	position: absolute;
+	left: 74px;
+}
+.second-hand-container {
+	width: 200px;
+	height: 200px;
+	/*background-color: white;*/
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	border-radius: 50%;
+}
+.second-hand {
+	position: relative;
+}
+
+.second-hand .hand {
+	width: 2px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	left: 99px;
+}
+
+.digital {
+	width: 70px;
+	height: 50px;
+	font-size: 15px;
+	border: 2px solid white;
+	color: white;
+	background-color: black;
+	position: absolute;
+	top: 70%;
+	left: 70%;
+	border-radius: 4px;
+}
+
+.analog1 {
+	width: 70px;
+	height: 50px;
+	font-size: 15px;
+	border: 2px solid white;
+	color: white;
+	background-color: black;
+	position: absolute;
+	top: 70%;
+	left: 70%;
+	border-radius: 4px;
+}
+
